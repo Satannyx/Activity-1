@@ -1,0 +1,23 @@
+head
+{
+    background-color: aqua;
+    display: flex;
+}
+body
+{
+    background-image: url();
+    box-sizing: border-box;
+    background-position: auto;
+    font-family: sans-serif;
+}
+.menu-bar1
+{
+    display: inline-flex;
+    list-style: none;
+}
+.nav-con
+{
+    width: 120px;
+    height: 15px;
+    padding: 15px;
+}
