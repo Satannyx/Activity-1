@@ -17,8 +17,7 @@
       rel="stylesheet"
     />
     <style>
-
-        /*
+      /*
 
         TOP HEADER CSS
 
@@ -106,15 +105,13 @@
         flex: 50%;
       }
 
-
-
       /*
 
 
       MENUUUUUUUU CSSS
 
       */
-      .header-container{
+      .header-container {
         display: flex;
         /* justify-content: center;
         align-items: center; */
@@ -123,68 +120,68 @@
         align-self: flex-start;
       }
       .menu {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            /* background-color: #f1f1f1; */
-            color:#ffffff;
-        }
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        /* background-color: #f1f1f1; */
+        color: #ffffff;
+      }
 
-        .menu li {
-            display: inline-block;
-        }
+      .menu li {
+        display: inline-block;
+      }
 
-        .menu li a {
-            display: block;
-            color: #000000;
-            text-decoration: none;
-            padding: 10px 20px;
-            font-size:15px;
-            font-family:'Poppins', sans-serif;
-        }
+      .menu li a {
+        display: block;
+        color: #000000;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+      }
 
-        .menu li a:hover {
-            color:#fcb316 !important;
-        }
+      .menu li a:hover {
+        color: #fcb316 !important;
+      }
 
-        /* Dropdown menu styles */
-        .dropdown {
-            position: relative;
-        }
+      /* Dropdown menu styles */
+      .dropdown {
+        position: relative;
+      }
 
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            /* background-color: #f9f9f9; */
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        /* background-color: #f9f9f9; */
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
 
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
 
-        .dropdown-content a {
-            color: #333;
-            padding: 10px 20px;
-            text-decoration: none;
-            display: block;
-        }
+      .dropdown-content a {
+        color: #333;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: block;
+      }
 
-        .dropdown-content a:hover {
-            background-color: #16163f;
-            color:#ffffff
-        }
+      .dropdown-content a:hover {
+        background-color: #16163f;
+        color: #ffffff;
+      }
 
-        .logo-size{
-            width:375px;
-            height: 46px;;
-        }
-        .logo-size-ustp{
-            width:75px;
-            height: 82px;
-        }
+      .logo-size {
+        width: 375px;
+        height: 46px;
+      }
+      .logo-size-ustp {
+        width: 75px;
+        height: 82px;
+      }
     </style>
   </head>
   <body>
@@ -236,32 +233,36 @@
             </div>
           </div>
         </div>
-        <div class="row " style="padding-top:25px; padding-bottom:25px;">
-            <div class="column">
-                <div class="header-container">
-                    <img class="logo-size-ustp" style="margin-left:120px" src="USTP.png" alt="">
-                    <img class="logo-size mt-20" src="ustp.jpg" alt="">
-                </div>
-              
-            </div>
-            <div class="column">
-                <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li class="dropdown">
-                        <a href="#">Services</a>
-                        <div class="dropdown-content">
-                            <a href="#">Service 1</a>
-                            <a href="#">Service 2</a>
-                            <a href="#">Service 3</a>
-                        </div>
-                    </li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+        <div class="row" style="padding-top: 25px; padding-bottom: 25px">
+          <div class="column">
+            <div class="header-container">
+              <img
+                class="logo-size-ustp"
+                style="margin-left: 120px"
+                src="USTP.png"
+                alt=""
+              />
+              <img class="logo-size mt-20" src="ustp.jpg" alt="" />
             </div>
           </div>
+          <div class="column">
+            <ul class="menu">
+              <li><a href="#">Home</a></li>
+              <li class="dropdown">
+                <a href="#">Services</a>
+                <div class="dropdown-content">
+                  <a href="#">Service 1</a>
+                  <a href="#">Service 2</a>
+                  <a href="#">Service 3</a>
+                </div>
+              </li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </body>
