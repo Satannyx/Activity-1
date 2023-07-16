@@ -16,25 +16,33 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color: #16163F;
+            /* background-color: #16163F; */
             font-family: sans-serif;
             font-size: small;
+            border-right-width:1px;
+            border-right-color:#ffffff;
+            padding-top: 5px;
+            padding-bottom: 5px;
         }
 
         ul.navbar li {
             float: left;
         }
         ul.navbar li a {
-            display: block;
+            display: inline-block;
             color: white;
             text-align: center;
             padding: 15px;
+            padding-left: 0px;
             text-decoration: none;
-            margin: 15px;
+            /* margin: 15px; */
+            border-right-color:#ffffff;
+            border-right-width: 1px;
         }
 
         ul.navbar li a:hover {
-            background-color: #111;
+            color: #FCB316;
+         
         }
         ul.navbar-1 i{
             display: block;
@@ -43,29 +51,80 @@
             margin: 10px;
             padding: 0px;
             text-decoration: none;
+            font-size:15px;
         }
         ul.navbar-1 i:hover{
             color: #FCB316;
         }
+
+        .container{
+            width:100%;
+        }
         
+        .bg-darkblue{
+            background-color: #16163F;
+        }
+
+        body{
+            margin:0px;
+        }
         
+        /* .section{
+            width:1600px;
+        } */
+
+
+        .navbar-1, .navbar-container{
+            /* width:1600px !important; */
+            display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+        }
+
+        .mt-20{
+            margin-top:10px;
+        }
+
+
+        .row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
     </style>
 </head>
 <body>
-    <ul class="navbar">
-        <li><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Career Center</a></li>
-        <li><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Student Affairs</a></li>
-        <li><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Alumni Affairs</a></li>
-        <li><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Employees</a></li>
-        <li><a href="#"><i class="fa-solid fa-ear-listen"></i> COVID-19 Response</a></li>
-
-    <ul class="navbar-1">  
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-
-    </ul>
+   <div class="container">
+    <div class="section">
+        <div class="bg-darkblue">
+          <div class="row">
+           <div class="column">
+            <ul class="navbar navbar-container">
+                <li><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Career Center <span style="margin-left:10px;">|</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Student Affairs <span style="margin-left:10px;">|</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Alumni Affairs <span style="margin-left:10px;">|</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Employees <span style="margin-left:10px;">|</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-ear-listen"></i> COVID-19 Response</a></li>
+            </ul>
+           </div>
+          <div class="column">
+            <ul class="navbar-1 mt-20">  
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        
+            </ul>
+          </div>
+          </div>
+        </div>
+        
+    </div>
+   </div>
 </body>
 </html>
