@@ -189,15 +189,24 @@
 
      .box {
        text-align: center;
+       width: 100%;
     }
-    .image-container img {
-      text-align: center;
-      width: 150px;
-      height: auto;
-      max-width: 100%;
-      border: none;
-      border-radius: 0;
-      box-shadow: none;
+    .image-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center; 
+  height: 15vh; 
+  margin: 0;
+}
+
+
+.image-container img {
+  margin: 10px;
+  width: 120px;
+}
+    .ml-5{
+      margin-left: 5px;
     }
     </style>
   </head>
@@ -266,13 +275,13 @@
           <div class="column">
             <ul class="menu">
               <li class="dropdown">
-                <a href="#">About</a>
+                <a href="#">About<i class="fa-solid fa-angle-down ml-5"></i></a>
                 <div class="dropdown-content">
                   <a href="https://www.youtube.com/watch?v=rV5ynCW-kVw">Service 1</a>
                   <a href="#">Service 2</a>
                   <a href="#">Service 3</a>
               <li class="dropdown">
-                <a href="#">Academics</a>
+                <a href="#">Academic<i class="fa-solid fa-angle-down ml-5"></i></a>
                 <div class="dropdown-content">
                   <a href="#">Service 1</a>
                   <a href="#">Service 2</a>
@@ -280,25 +289,25 @@
                 </div>
               </li>
               <li class="dropdown">
-                <a href="#">Research, Innovation & Entrepreneurship</a>
+                <a href="#">Research, Innovation & Entrepreneurship<i class="fa-solid fa-angle-down ml-5"></i></a>
                 <div class="dropdown-content">
                   <a href="#">Service 1</a>
                   <a href="#">Service 2</a>
                   <a href="#">Service 3</a>
                   <li class="dropdown">
-                    <a href="#">Global</a>
+                    <a href="#">Global<i class="fa-solid fa-angle-down ml-5"></i></a>
                     <div class="dropdown-content">
                       <a href="#">Service 1</a>
                       <a href="#">Service 2</a>
                       <a href="#">Service 3</a>>
                       <li class="dropdown">
-                        <a href="#">Updates</a>
+                        <a href="#">Updates<i class="fa-solid fa-angle-down ml-5"></i></a>
                         <div class="dropdown-content">
                           <a href="#">Service 1</a>
                           <a href="#">Service 2</a>
                           <a href="#">Service 3</a>>
                           <li class="dropdown">
-                            <a href="#">Services</a>
+                            <a href="#">Services<i class="fa-solid fa-angle-down ml-5"></i></a>
                             <div class="dropdown-content">
                               <a href="#">Service 1</a>
                               <a href="#">Service 2</a>
@@ -309,8 +318,7 @@
       </div>
     </div>
       <div class="box">
-          <video src="yes.mp4" autoplay loop muted></video>
-          <video src="junjun.mp4" autoplay loop muted></video>
+          <video src="banner.mp4" autoplay loop muted></video>
               </div>
               <div>
                 <div class="image-container">
@@ -320,9 +328,11 @@
                   <img src="AD.png" alt="Image 4">
                   <img src="EduRank-Logo-300x183.png" alt="Image 5">
                   <img src="Socotec-Certification-International-ISO-9001.png" alt="Image 6">
-
                 </div>
-                
+              </div>
+              <div>
+                <h1></h1>
+                <h2>ABOUT USTP</h2>
               </div>
   </body>
 </html>
