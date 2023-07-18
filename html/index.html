@@ -9,11 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" type="image/png" href="USTP.png" sizes="16x16">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="icon" type="image/png" href="USTP.png" 16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;700&family=Poppins&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
 
       h1, h2, h3, h4, h5 ,h6, p{
@@ -31,7 +29,7 @@
         overflow: hidden;
         /* background-color: #16163F; */
         font-family: "Poppins", sans-serif;
-        font-size: 14px;
+        font-size: 12px;
         border-right-width: 1px;
         border-right-color: #ffffff;
         padding-top: 5px;
@@ -240,6 +238,30 @@
     .col-3{
       flex:25px;
     }
+    .button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .button {
+    background-color: #1a1a44;
+    font-family: "Poppins", sans-serif;
+    color: #fcb316;
+    text-align: center;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  .button:hover {
+    background-color: #fcb316;
+    color: #1a1a44;
+  }
 
     </style>
   </head>
@@ -296,13 +318,13 @@
         <div class="row" style="padding-top: 25px; padding-bottom: 25px">
           <div class="column">
             <div class="header-container">
-              <img
+              <a href="#"><img
                 class="logo-size-ustp"
                 style="margin-left: 165px"
                 src="USTP.png"
                 alt=""
-              />
-              <img class="logo-size mt-20" src="ustp.jpg" alt="" />
+              /></a>
+              <a href="#"><img class="logo-size mt-20" src="ustp.jpg" alt="" /></a>
             </div>
           </div>
           <div class="column">
@@ -332,35 +354,35 @@
                     <div class="dropdown-content">
                       <a href="#">Service 1</a>
                       <a href="#">Service 2</a>
-                      <a href="#">Service 3</a>>
+                      <a href="#">Service 3</a>
                       <li class="dropdown">
                         <a href="#">Updates<i class="fa-solid fa-angle-down ml-5"></i></a>
                         <div class="dropdown-content">
                           <a href="#">Service 1</a>
                           <a href="#">Service 2</a>
-                          <a href="#">Service 3</a>>
+                          <a href="#">Service 3</a>
                           <li class="dropdown">
                             <a href="#">Services<i class="fa-solid fa-angle-down ml-5"></i></a>
                             <div class="dropdown-content">
                               <a href="#">Service 1</a>
                               <a href="#">Service 2</a>
-                              <a href="#">Service 3</a>>
+                              <a href="#">Service 3</a>
             </ul>
           </div>
         </div>
       </div>
     </div>
-      <div class="box">
+      <div class="box" style="border-radius: 50px; border-top-left-radius: 50px; border-bottom-right-radius: 50px; margin: 5px;">
           <video src="banner.mp4" autoplay loop muted></video>
       </div>
       <div>
           <div class="image-container">
-                  <img src="STARS.png" alt="Image 1">
-                  <img src="RANK.png" alt="Image 2">
-                  <img src="WEBO-300x183.png" alt="Image 3">
-                  <img src="AD.png" alt="Image 4">
-                  <img src="EduRank-Logo-300x183.png" alt="Image 5">
-                  <img src="Socotec-Certification-International-ISO-9001.png" alt="Image 6">
+            <a href="#"><img src="STARS.png" alt="Image 1"></a>
+            <a href="#"><img src="RANK.png" alt="Image 2"></a>
+              <a href="#"><img src="WEBO-300x183.png" alt="Image 3"></a>
+                <a href="#"><img src="AD.png" alt="Image 4"></a>
+                  <a href="#"><img src="EduRank-Logo-300x183.png" alt="Image 5"></a>
+                  <a href="#"><img src="Socotec-Certification-International-ISO-9001.png" alt="Image 6"></a>
           </div>
       </div>
       <div class="sectionfull">
@@ -380,10 +402,13 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi odit eius error aspernatur voluptatibus fugiat, itaque labore soluta, nulla non recusandae in animi, placeat vel maiores similique dolorem facilis cum.</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi odit eius error aspernatur voluptatibus fugiat, itaque labore soluta, nulla non recusandae in animi, placeat vel maiores similique dolorem facilis cum.</p>   
             </div>
+            <div class="button-container">
+              <button class="button">Learn more about USTP</button>
+            </div>
+
           </div>
 
         </div>
       </div>
-        </div>
   </body>
 </html>
